@@ -49,20 +49,20 @@ let id = generator.generate();
 
 ## Available Parts
 
-- `IdPart::Animal` - Animal names (e.g., "cat", "dragon", "penguin") - 171 options
-- `IdPart::Color` - Color names (e.g., "blue", "emerald", "crimson") - 85 options
-- `IdPart::Adjective` - Adjectives (e.g., "happy", "brilliant", "majestic") - 851 options
-- `IdPart::Adverb` - Adverbs (e.g., "quickly", "gracefully", "boldly") - 328 options
+- `IdPart::Animal` - Animal names (e.g., "cat", "dragon", "penguin") - 295 options
+- `IdPart::Color` - Color names (e.g., "blue", "emerald", "crimson") - 150 options
+- `IdPart::Adjective` - Adjectives (e.g., "happy", "brilliant", "majestic") - 1,074 options
+- `IdPart::Adverb` - Adverbs (e.g., "quickly", "gracefully", "boldly") - 467 options
 
 ## Unique ID Capacity
 
 The number of unique IDs you can generate depends on the format you choose:
 
-- **Default format** (`adjective-color-animal`): **12,369,285** unique combinations
+- **Default format** (`adjective-color-animal`): **47,469,000** unique combinations
 - **Custom formats**: The total combinations depend on which parts you include. For example:
-  - `adverb-adjective-animal`: **47,730,888** unique combinations
-  - `adjective-animal`: **145,521** unique combinations
-  - `color-animal`: **14,535** unique combinations
+  - `adverb-adjective-animal`: **147,500,310** unique combinations
+  - `adjective-animal`: **316,830** unique combinations
+  - `color-animal`: **44,250** unique combinations
 
 You can calculate the total for any custom format by multiplying the number of options for each part you include.
 
